@@ -30,7 +30,5 @@ def obtener_datos():
 
     datos = [{"id": r[0], "valor": r[1]} for r in rows]
 
-    
-    
 
     return {"datos": datos, alumnos : 19}
